@@ -4,7 +4,7 @@
 <%@ taglib prefix="admin" tagdir="/WEB-INF/tags/admin" %>
 
 <jsp:useBean id="propertiesBean" scope="request" type="jetbrains.buildServer.controllers.BasePropertiesBean"/>
-<jsp:useBean id="delayedFinishedBuildTriggerBean" type="rhysgodfrey.teamcity.triggers.DelayedBuildFinishedSettingsBean" scope="request"/>
+<jsp:useBean id="delayedFinishedBuildTriggerBean" type="com.github.guskovartem.teamcityDelayedFinishPlugin.DelayedBuildFinishedSettingsBean" scope="request"/>
 
 <table class="runnerFormTable" style="width: 99%;">
     <tbody>

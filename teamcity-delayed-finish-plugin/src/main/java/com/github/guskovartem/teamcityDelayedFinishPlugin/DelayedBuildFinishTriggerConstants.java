@@ -14,12 +14,16 @@
  * limitations under the License.
  */
 
-package rhysgodfrey.teamcity.triggers;
+package com.github.guskovartem.teamcityDelayedFinishPlugin;
 
 public class DelayedBuildFinishTriggerConstants {
-    public final static String AFTER_SUCCESSFUL_BUILD_ONLY_PROPERTY = "afterSuccessfulBuildOnly";
-    public final static String TRIGGER_CONFIGURATION_PROPERTY = "trigger_configuration";
-    public final static String WAIT_TIME_PROPERTY = "wait_time";
+  public static final String AFTER_SUCCESSFUL_BUILD_ONLY_PROPERTY = "afterSuccessfulBuildOnly";
+  public static final String TRIGGER_CONFIGURATION_PROPERTY = "trigger_configuration";
+  public static final String WAIT_TIME_PROPERTY = "wait_time";
 
-    public final static String LAST_BUILD_ID_KEY = "LastTriggeredBuildId";
+  public static final String EDIT_URL_BUILD_TRIGGER = "delayedBuildTriggerConfig";
+  public static final String EDIT_URL_BUILD_TRIGGER_JSP = EDIT_URL_BUILD_TRIGGER + ".jsp";
+  public static final String EDIT_URL_BUILD_TRIGGER_HTML = EDIT_URL_BUILD_TRIGGER + ".html";
+
+  public static final String LAST_BUILD_ID_KEY = "LastTriggeredBuildId";
 }

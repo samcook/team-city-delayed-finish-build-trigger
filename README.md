@@ -1,3 +1,5 @@
+This is the fork of [rhysgodfrey/team-city-delayed-finish-build-trigger](https://github.com/rhysgodfrey/team-city-delayed-finish-build-trigger).
+
 Team City Delayed Build Finished Trigger
 ===========================
 

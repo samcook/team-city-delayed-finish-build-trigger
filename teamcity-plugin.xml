@@ -8,8 +8,8 @@
     <description>Finished Build Trigger with a specified delay</description>
 
     <vendor>
-      <name>Rhys Godfrey</name>
-      <url>https://github.com/rhysgodfrey/team-city-delayed-finish-build-trigger</url>
+      <name>Artem Guskov</name>
+      <url>https://github.com/GuskovArtem/team-city-delayed-finish-build-trigger</url>
     </vendor>
   </info>
 </teamcity-plugin>
