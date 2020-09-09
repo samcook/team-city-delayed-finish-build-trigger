@@ -4,7 +4,7 @@
   <info>
     <name>DelayedBuildFinishedTrigger</name>
     <display-name>Delayed Build Finished Trigger</display-name>
-    <version>@version@</version>
+    <version>@Version@</version>
     <description>Finished Build Trigger with a specified delay</description>
 
     <vendor>
